@@ -34,15 +34,19 @@ Node.js: Required for managing frontend assets with npm.
 Installation
 
 Clone the Repository
+
 -git clone https://github.com/moogie3/stream-app.git
+
 -cd stream-app
 
 Install Dependencies
 
 Install PHP dependencies using Composer:
-composer install
+
+-composer install
 
 Install JavaScript dependencies with npm:
+
 -npm install && npm run dev
 
 Database Setup
@@ -60,7 +64,9 @@ DB_PASSWORD=your_password
 Migrate and Seed Database
 
 Run the following commands to set up the database structure and seed data:
+
 -php artisan migrate
+
 -php artisan db:seed
 
 Run the Application
